@@ -42,7 +42,7 @@ var COMPILED = false;
  *
  * @const
  */
-var goog = goog || {};
+this.goog = (typeof goog != 'undefined') ? goog : {};
 
 
 /**
